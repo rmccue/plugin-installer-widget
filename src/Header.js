@@ -15,7 +15,7 @@ export default function Header( props ) {
 
 		<p>Here's a demo:</p>
 		<iframe
-			src={ `${ props.widgetURL }?dark=true&slug=rest-oauth&name=REST%20OAuth` }
+			src={ `${ props.widgetURL }?dark=true&slug=gutenberg&name=Gutenberg` }
 			style={ { border: 'none', width: 600 } }
 			title="WordPress Plugin Installer"
 		></iframe>

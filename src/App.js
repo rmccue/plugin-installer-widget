@@ -9,8 +9,8 @@ import ConfigForm from './ConfigForm';
 import './App.css';
 
 const DEFAULTS = {
-	slug: 'rest-oauth',
-	name: 'REST OAuth',
+	slug: 'gutenberg',
+	name: 'Gutenberg',
 };
 
 const WIDGET_URL = `${ window.location.origin }/widget/`;

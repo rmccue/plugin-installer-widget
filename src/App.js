@@ -101,7 +101,10 @@ export default class App extends Component {
 				/>
 
 				<p>
-					Note: To access users' sites on <code>http:</code>, your code <em>must</em> also be on <code>http</code>.
+					<strong>Note:</strong> To access users' sites on <code>http:</code>,
+					you need to load the widget from <code>http</code>, and
+					your site must also be on <code>http</code>. This is due to
+					mixed content restrictions in modern browsers.
 				</p>
 
 				<p>

@@ -1,6 +1,8 @@
 # WordPress Plugin Installer Widget
 
-<h2><a href="https://wp-install.surge.sh/">Build your own widget</a></h2>
+<img src="https://i.imgur.com/BrE3yhA.png" />
+
+<h2><a href="https://wp-install.surge.sh/">&rarr; Build your own widget</a></h2>
 
 ## Forking the widget
 

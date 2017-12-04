@@ -1,0 +1,84 @@
+.Widget {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.Widget.dark {
+	color: rgba( 255, 255, 255, 0.9 );
+}
+
+.Widget p {
+	margin: 0 0 1em;
+}
+
+.Widget-form {
+	display: flex;
+	align-items: stretch;
+	background: var( --button-color );
+}
+
+.Widget-form label {
+	width: 100%;
+}
+
+.Widget-form label span {
+	display: none;
+}
+
+.Widget-form input {
+	width: 100%;
+	box-sizing: border-box;
+	font-size: inherit;
+	padding: 1em;
+	border: 1px solid #00a0d2;
+	border-right: none;
+}
+
+.Widget.dark .Widget-form input {
+	border: none;
+}
+
+.Widget-form button {
+	flex-shrink: 0;
+	background: #00a0d2;
+	color: #fff;
+	border: 1px solid #00a0d2;
+	font: inherit;
+	display: flex;
+	align-items: end;
+	line-height: 1;
+	padding: 0 1em;
+}
+
+.Widget-form button:active,
+.Widget-form button:focus {
+	border-color: #0073aa;
+}
+
+.Widget-form button .Icon {
+	margin-right: 0.5em;
+	vertical-align: middle;
+	align-self: center;
+}
+
+.Widget-status {
+	display: flex;
+	align-items: center;
+	background: #00a0d2;
+	color: #fff;
+	padding: 1em;
+}
+
+.Widget-status .Icon {
+	width: 25px;
+	height: 25px;
+	margin-right: 0.5em;
+}
+
+.Widget-status p {
+	margin: 0;
+}
+
+.Widget .Widget-not-found {
+	margin: 0.5em 0 0;
+}

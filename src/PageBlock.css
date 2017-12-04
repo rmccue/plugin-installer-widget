@@ -1,0 +1,19 @@
+.PageBlock {
+	background: #32373c;
+	color: rgba( 255, 255, 255, 0.9 );
+	padding: 0.1em 0;
+	line-height: 1.7;
+}
+
+.PageBlock p {
+	margin: 0 0 1em;
+}
+
+.PageBlock a {
+	color: #fff;
+}
+
+.PageBlock-inner {
+	width: 600px;
+	margin: 0 auto;
+}

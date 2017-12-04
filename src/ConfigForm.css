@@ -1,0 +1,36 @@
+.ConfigForm label {
+	display: flex;
+	align-items: center;
+	margin: 0 0 1.5rem;
+}
+
+.ConfigForm label > span {
+	width: 25%;
+	text-align: right;
+	padding: 0 1em 0 0;
+}
+
+.ConfigForm input {
+	font: inherit;
+}
+
+.ConfigForm input[type="text"] {
+	padding: 0.3em;
+	width: 20em;
+}
+
+.ConfigForm input[type="checkbox"] {
+	margin-right: 0.5em;
+}
+
+.ConfigForm input.code {
+	font-family: Menlo, Consolas, monospace;
+	font-size: 0.9em;
+}
+
+.ConfigForm-description {
+	font-size: 0.7em;
+	line-height: 1.7;
+	max-width: 40%;
+	margin-left: 25%;
+}

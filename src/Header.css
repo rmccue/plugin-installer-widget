@@ -1,0 +1,11 @@
+.Header {
+	margin: 0 0 2rem;
+}
+
+.Header-powered-by {
+	font-size: 0.8em;
+}
+
+.Header-powered-by .Icon {
+	color: #f56e28;
+}

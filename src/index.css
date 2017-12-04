@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.4;
+	background: #eee;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+textarea {
+	font-family: Menlo, Consolas, monospace;
+	font-size: 0.9em;
+}
+
+a {
+	color: #0073aa;
+}

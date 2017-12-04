@@ -11,6 +11,14 @@
 	margin: 0 0 1em;
 }
 
+.Widget a {
+	color: #00a0d2;
+}
+
+.Widget.dark a {
+	color: inherit;
+}
+
 .Widget-form {
 	display: flex;
 	align-items: stretch;

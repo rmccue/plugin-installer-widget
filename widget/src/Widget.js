@@ -77,7 +77,7 @@ export default class Widget extends Component {
 	}
 
 	render( props ) {
-		const { dark, name } = this.props;
+		const { dark, name, slug } = this.props;
 		const { status, url } = this.state;
 
 		return <form
@@ -106,7 +106,10 @@ export default class Widget extends Component {
 						</button>
 					</div>
 					{ status === STATE.NOT_FOUND ?
-						<p className="Widget-not-found">Unable to find your WordPress site. Make sure you're running WordPress 4.7+.</p>
+						<p className="Widget-not-found">
+							Unable to find your WordPress site.
+							Try <a href={ `https://wordpress.org/plugins/${ slug }/` } target="_top">installing the plugin manually</a>.
+						</p>
 					: null }
 				</div>
 			: status === STATE.LOADING ?
